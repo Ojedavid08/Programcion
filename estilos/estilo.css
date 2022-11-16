@@ -9,6 +9,24 @@ body{
     background:  rgb(215, 197, 248) url(../imagenes/a8.jpg);
     padding: 5%;
 }
+/*oscuroclaro*/
+button{
+  border: 0px;
+}
+.oscuroclaro1 {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.oscuroclaro{
+  background-color: white ;
+  width: 5vw;
+  border-radius: 50%;
+}
+.oscuroclaro :hover{
+    width: 6vw;
+  }
 
 /*cabezal*/
 header{
@@ -35,10 +53,10 @@ h1{
 .med{
     width: 3vw;
 }
-.med :hover{
+.medi :hover{
     width: 4vw;
-    border-radius: 50%;
-    background-color: rgba(151, 235, 186, 0.534);
+    border-radius: 0%;
+    background-color: white;
 }
 
 /*menu*/
@@ -47,12 +65,13 @@ nav{
     justify-content: space-around;
     align-items: center;
     background: rgb(92, 212, 182);
-    height: 12vh;
+    height: 10%;
     border-radius: 10px; 
 }
 .otros{
     background: rgb(92, 212, 182);
-    font-size: 28px;
+    font-size: 2rem;
+    margin: 1%;
 }
 .otros:hover{
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8);
@@ -110,7 +129,6 @@ figure{
     width: 35vw;
     padding: 20px;
     border-radius: 5px;
-
     }
 
 .vi {
@@ -130,7 +148,11 @@ figure{
     width: 43vw;
     height:33vw ;
 }
+/*seccion de card*/
 
+.card-body{
+    height: 250px;
+}
 /*pie de pagina*/
 footer{
     display: flex;
@@ -151,8 +173,9 @@ footer{
     position: fixed;
     bottom: 25%;
     left: 1%;
-    width: 10vw;
+    width: 12vw;
 }
+
 
 /*adaptacion pantalla 991*/
 @media (max-width: 991px) {
@@ -272,13 +295,22 @@ footer{
     .map, .map2, .pregunta{
             display: none;
     } 
+    nav{
+        height: 65px;
+    }
+    .med{
+        width: 30px;
+    }
+    .medi :hover{
+        width: 40px;
+    }
+    .was{
+        width: 50px;
+    }
   }
 
   @media (min-width: 575px) {
     .baba{
         display: none;
     }
-
-  }
-  
-  
+  } 
