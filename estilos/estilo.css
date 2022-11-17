@@ -129,6 +129,7 @@ figure{
     width: 35vw;
     padding: 20px;
     border-radius: 5px;
+    color: black;
     }
 
 .vi {
@@ -243,7 +244,7 @@ footer{
         font-size: 20px;
         line-height: 30px;
         width: 50%;
-        color: rgb(23, 4, 41);
+        color: rgb(0, 0, 0);
     }
     .lista{
         width: 100%;
